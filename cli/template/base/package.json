@@ -1,11 +1,24 @@
 {
-  "name": "base",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "lint": "eslint --ext .ts src",
+    "build": "bun run bundle.ts"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "dependencies": {
+    "@elysiajs/jwt": "^0.8.0",
+    "@elysiajs/swagger": "^0.8.0",
+    "drizzle-orm": "^0.29.1",
+    "elysia": "^0.8.5",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "bun-types": "^1.0.7",
+    "drizzle-kit": "^0.20.7",
+    "eslint": "^8.56.0",
+    "eslint-plugin-sort-keys": "^2.3.5",
+    "eslint-plugin-typescript-sort-keys": "^3.1.0",
+    "typescript": "^5.3.3"
   }
 }
