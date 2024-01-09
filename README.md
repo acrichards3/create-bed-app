@@ -1,6 +1,6 @@
 # create-bed-app
 
-To install dependencies:
+A lightweight backend framework for creating TypeScript applications with Bun, Elysia, and Drizzle ORM.
 
 ```bash
 bun install
