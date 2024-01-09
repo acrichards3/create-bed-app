@@ -1,6 +1,14 @@
 {
-  "name": "cli",
-  "module": "src/index.ts",
+  "name": "create-bed-app",
+  "version": "1.0.0",
+  "description": "A CLI for generating a new Bun, Elysia, Drizzle application.",
+  "main": "./src/index.ts",
+  "bin": {
+    "create-bed-app": "./src/index.ts"
+  },
+  "author": "Alex Richards",
+  "license": "MIT",
+  "module": "./src/index.ts",
   "type": "module",
   "devDependencies": {
     "@types/chalk-animation": "^1.6.3",
